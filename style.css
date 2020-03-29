@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+}
+.logo, .navbar, .header, .service-item, .gallary-item{
+	background-color: #e84393;
+}
+.nav{
+	overflow: hidden;
+}
+.logo h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: black;
+}
+.logo{
+	width: 20%;
+	height: 100px;
+	float: left; 
+}
+.navbar{
+	width: 78%;
+	height: 100px;
+	float: right; 
+}
+.navbar h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: black;
+}
+.gallary{
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.gallary-item{
+	height: 200px;
+	width: 280px;
+}
+.intro{
+	height: 152px;
+}
+.intro h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 60px;
+	color: violet;
+}
+.service{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0;
+}
+.service-item{
+	height: 300px;
+	width: 33%;
+}
+.service-item h1{
+	font-size: 30psssx;
+	margin: 0;
+	text-align: center;
+	padding-top: 120px;
+	color: black;
+}
+.footer{
+	height: 90px;
+}
+.footer h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: black;
+}
